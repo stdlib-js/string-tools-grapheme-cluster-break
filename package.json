@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-tools-grapheme-cluster-break",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "description": "Grapheme cluster break tooling.",
   "license": "Apache-2.0",
   "author": {
