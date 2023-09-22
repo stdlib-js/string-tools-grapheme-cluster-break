@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import grapheme from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-tools-grapheme-cluster-break@deno/mod.js';
+import grapheme from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-tools-grapheme-cluster-break@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { breakProperty, breakType, constants, emojiProperty } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-tools-grapheme-cluster-break@deno/mod.js';
+import { breakProperty, breakType, constants, emojiProperty } from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-tools-grapheme-cluster-break@v0.1.0-deno/mod.js';
 ```
 
 #### grapheme
@@ -139,7 +139,7 @@ var out = grapheme.constants;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import grapheme from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-tools-grapheme-cluster-break@deno/mod.js';
+import grapheme from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-tools-grapheme-cluster-break@v0.1.0-deno/mod.js';
 
 var out = grapheme.breakProperty( 0x008f );
 // returns 2
