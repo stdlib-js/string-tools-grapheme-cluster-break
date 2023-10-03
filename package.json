@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-tools-grapheme-cluster-break",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Grapheme cluster break tooling.",
   "license": "Apache-2.0",
   "author": {
@@ -36,7 +36,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.0"
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-function": "^0.1.0",
