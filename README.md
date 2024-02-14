@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+grapheme = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-tools-grapheme-cluster-break@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-tools-grapheme-cluster-break/tags). For example,
+
+```javascript
 grapheme = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-tools-grapheme-cluster-break@v0.2.0-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var grapheme = require( 'path/to/vendor/umd/string-tools-grapheme-cluster-break/
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-tools-grapheme-cluster-break@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-tools-grapheme-cluster-break@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -160,7 +165,7 @@ var out = grapheme.constants;
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-tools-grapheme-cluster-break@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-tools-grapheme-cluster-break@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
